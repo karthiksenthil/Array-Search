@@ -6,16 +6,22 @@ int main()
 {
      int n;   //no. of elements of array//
      int i;
+     printf("Enter the number of elements in the array.\n");
      scanf("%d",&n);
      
+     printf("Enter the elements of the array, pressing enter after each element.\n");
      for(i=0;i<n;i++)
        scanf("%d",&arr[i]);
        
      sort_arr(n);
      //printing the sorted array//
+     printf("The sorted array is-\n");
      for(i=0;i<n;i++)
        printf("%d ",arr[i]);
+
      printf("\n");
+
+     printf("Enter the item to be searched.\n");
      int item;   //item to be searched//
      scanf("%d",&item);
      
