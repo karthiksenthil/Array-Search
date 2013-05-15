@@ -18,19 +18,19 @@ Methods Used In The Program :
 
       The logic involved in binary search is as follows:
    
-       a) Three variables named *beg*,*mid* and *end* keep track of the beginning,middle and the last element of the array respectively. 
+       a) Three variables named beg,mid and end keep track of the beginning,middle and the last element of the array respectively. 
 
-       b) The element to be searched is first compared with the *middle element* of the array.
+       b) The element to be searched is first compared with the middle element of the array.
     
-       c) If the element is *equal* to the middle element return the **position of the middle element** .
+       c) If the element is equal to the middle element return the position of the middle element .
   
        d) Else if the element is greater than mid :
     
-            i) The array is **virtually shrunk** by making beg point to *element after mid*.
+            i) The array is virtually shrunk by making beg point to element after mid.
         
        e)Else
     
-            i) The array is shrunk this time by making *end point to element before mid*.
+            i) The array is shrunk this time by making end point to element before mid.
 
        f) This step is repeated till beg equals end .
 
